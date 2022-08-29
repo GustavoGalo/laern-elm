@@ -17,7 +17,7 @@ update msg model =
     Increment ->
       model + 1
 
-    Decrement ->
+    Decrement ->  
       model - 1
 
 view : Int -> Html.Html Msg
